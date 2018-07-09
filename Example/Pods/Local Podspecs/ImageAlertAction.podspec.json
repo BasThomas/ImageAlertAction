@@ -1,0 +1,22 @@
+{
+  "name": "ImageAlertAction",
+  "version": "1.0.0",
+  "summary": "Image support for UIAlertAction",
+  "description": "ImageAlertAction adds image support to UIAlertAction. Use this to visually convey an action's purpose.",
+  "homepage": "https://github.com/BasThomas/ImageAlertAction",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Bas Broek": "bas@basbroek.nl"
+  },
+  "source": {
+    "git": "https://github.com/BasThomas/ImageAlertAction.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageAlertAction/Classes/**/*"
+}

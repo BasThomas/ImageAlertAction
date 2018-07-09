@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'ImageAlertAction_Example' do
+  pod 'ImageAlertAction', :path => '../'
+
+  target 'ImageAlertAction_Tests' do
+    inherit! :search_paths
+  end
+end

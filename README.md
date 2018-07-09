@@ -51,6 +51,27 @@ let settings = UIAlertAction(
 )
 ```
 
+### Presenting the `UIAlertController`
+
+To present a `UIAlertController` containing the `UIAlertAction`, nothing changes.
+
+```swift
+let alertController = UIAlertController(
+  title: "Title",
+  message: "Message",
+  preferredStyle: style
+)
+
+let settings = UIAlertAction(
+  title: "Settings",
+  image: #imageLiteral(resourceName: "settings"),
+  style: .default
+)
+alertController.addAction(settings)
+
+present(alertController, animated: true)
+```
+
 ## Acknowledgements
 
 - Created by [Bas Broek](https://twitter.com/basthomas)

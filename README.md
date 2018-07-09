@@ -51,6 +51,19 @@ let settings = UIAlertAction(
 )
 ```
 
+#### Accessing the added `UIImage`
+
+As with the title and style, you can access the image set on the `UIAlertAction`.
+
+```swift
+let settings = UIAlertAction(
+  title: "Settings",
+  image: #imageLiteral(resourceName: "settings"),
+  style: .default
+)
+settings.image // returns an optional UIImage
+```
+
 ### Presenting the `UIAlertController`
 
 To present a `UIAlertController` containing the `UIAlertAction`, nothing changes.

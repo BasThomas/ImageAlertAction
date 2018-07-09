@@ -1,11 +1,11 @@
 # ImageAlertAction
 
+`ImageAlertAction` is a simple `UIAlertAction` extension that adds support for an image
+in the action's button.
+
 <p align="center">
   <img src="assets/actionsheet.png" alt="Action Sheet" width="300"> <img src="assets/alert.png" alt="Alert" width="300">
 </p>
-
-`ImageAlertAction` is a simple `UIAlertAction` extension that adds support for an image
-in the action's button.
 
 ## Example
 

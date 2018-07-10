@@ -8,7 +8,7 @@ Use this to visually convey an action's purpose.
                        DESC
 
   s.homepage         = 'https://github.com/BasThomas/ImageAlertAction'
-  s.screenshots      = 'https://github.com/BasThomas/ImageAlertAction/tree/master/assets/alert.png', 'https://github.com/BasThomas/ImageAlertAction/tree/master/assets/actionsheet.png'
+  s.screenshots      = 'https://raw.githubusercontent.com/BasThomas/ImageAlertAction/master/assets/alert.png', 'https://raw.githubusercontent.com/BasThomas/ImageAlertAction/master/assets/actionsheet.png'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Bas Broek' => 'bas@basbroek.nl' }
   s.source           = { :git => 'https://github.com/BasThomas/ImageAlertAction.git', :tag => s.version.to_s }

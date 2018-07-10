@@ -1,5 +1,10 @@
 language: swift
 os: osx
 osx_image: xcode9.4
-xcode_workspace: /Example/ImageAlertAction.xcworkspace
-xcode_scheme: ImageAlertAction-Example
+
+script:
+  - xctool \
+    -workspace /Example/ImageAlertAction.xcworkspace \
+    -scheme ImageAlertAction-Example \
+    run-tests
+

@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		10D38A140BDA724AA48D5D4F2F27F4F4 /* Pods-ImageAlertAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A132C0ED565FD2647E69292D1FA92FEA /* Pods-ImageAlertAction_Tests-dummy.m */; };
+		1B51EDB8772C5D79646D7F0B9511AECB /* Pods-ImageAlertAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A132C0ED565FD2647E69292D1FA92FEA /* Pods-ImageAlertAction_Tests-dummy.m */; };
 		212326401D453EDAF02B66EE97A4854F /* Pods-ImageAlertAction_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9351E7C4178A1B5611B2510AB1BAAB7 /* Pods-ImageAlertAction_Example-dummy.m */; };
-		4AD2AAF1F6102B626409DE96E9A6AE67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		26EE0214B9670FBED2C9ABA289320ACD /* UIAlertAction+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03254290CF2A229C3638F7DD7154C235 /* UIAlertAction+Image.swift */; };
+		3478D8C4C7745EEB50669D84F93582DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		42517115CF84FE8602B3EB5097C3370B /* ImageAlertAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F351A7B74AF9A85ED40FC8029DF1ED /* ImageAlertAction-dummy.m */; };
+		44AD8914BCAADF02C3420D65696BA869 /* Pods-ImageAlertAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2335C3395527DDC3EAF59C87FA1AA128 /* Pods-ImageAlertAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5219CB69CEF899D960FEE94CB506D2D1 /* Pods-ImageAlertAction_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2675711D34B734DCAEF5878AB1264A9C /* Pods-ImageAlertAction_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58671D0C387F914DC31B6F9597A2CE3A /* Pods-ImageAlertAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2335C3395527DDC3EAF59C87FA1AA128 /* Pods-ImageAlertAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5A03D266D71DEBA9EAF6EBF4F2B3B437 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		B48C2CB3D62616320945FD6D6A82C2D1 /* ImageAlertAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AF0441ACF59B4FFE97E518A2F96A2FD8 /* ImageAlertAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFEBA1E91851FC0890AF2B2CE09164D0 /* ImageAlertAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59120545BB7A6F9B8AAF5A7DF4015F86 /* ImageAlertAction-dummy.m */; };
-		D9A0F4D767E4DAE284D624771061834A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		FB6784FEFB677C31E6C75B5F0682ED50 /* UIAlertAction+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = B785C0DD3E8CA64E7002E7434AD1DB8E /* UIAlertAction+Image.swift */; };
+		53482A853556DC17F9576947DBE1633D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		57539CE82B9733868D2CDCC3083FFC69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		C3B387122886DE35ED44A134155642D3 /* ImageAlertAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4FCE9331A764212D27CB2F623E8604 /* ImageAlertAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF5694458DC181F97176541E3F833442 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,55 +25,72 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F518E65650E4E32F543BEE73F4283B6C;
+			remoteGlobalIDString = D8C6EE226E2E6ADE766434367ACF0132;
 			remoteInfo = ImageAlertAction;
+		};
+		5996B91833F955497C234ACDFB60D6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 952D4DC67B18723B2D5E95244C9F95B8;
+			remoteInfo = "Pods-ImageAlertAction_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		00B6AEF8E38DA09D96D61F72A7D2C02E /* Pods-ImageAlertAction_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAlertAction_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		12260EDD517FD020BBE8CF562BC3A419 /* ImageAlertAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageAlertAction.modulemap; sourceTree = "<group>"; };
+		03254290CF2A229C3638F7DD7154C235 /* UIAlertAction+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Image.swift"; path = "ImageAlertAction/Classes/UIAlertAction+Image.swift"; sourceTree = "<group>"; };
 		1350CF5324C301F3F39760C55648DF41 /* Pods-ImageAlertAction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAlertAction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1706828FA991BEF9B904ED03D5AA8E7E /* Pods-ImageAlertAction_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAlertAction_Example.release.xcconfig"; sourceTree = "<group>"; };
-		200540A424893C55FFDA39D203BF6CE2 /* ImageAlertAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAlertAction-prefix.pch"; sourceTree = "<group>"; };
 		2245E712D079DB12821C81D9E5A712D5 /* Pods-ImageAlertAction_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ImageAlertAction_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2335C3395527DDC3EAF59C87FA1AA128 /* Pods-ImageAlertAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAlertAction_Tests-umbrella.h"; sourceTree = "<group>"; };
 		2675711D34B734DCAEF5878AB1264A9C /* Pods-ImageAlertAction_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageAlertAction_Example-umbrella.h"; sourceTree = "<group>"; };
 		38DC0A332D55A95BA978A8080D4DFF9A /* Pods-ImageAlertAction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAlertAction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5765D8E1BFF089A25447DE1BA4C68977 /* ImageAlertAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAlertAction.xcconfig; sourceTree = "<group>"; };
-		59120545BB7A6F9B8AAF5A7DF4015F86 /* ImageAlertAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageAlertAction-dummy.m"; sourceTree = "<group>"; };
+		4D4FCE9331A764212D27CB2F623E8604 /* ImageAlertAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAlertAction-umbrella.h"; sourceTree = "<group>"; };
+		52F351A7B74AF9A85ED40FC8029DF1ED /* ImageAlertAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageAlertAction-dummy.m"; sourceTree = "<group>"; };
 		5F43134188FCAF263D850E7D9B75B098 /* Pods-ImageAlertAction_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageAlertAction_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		64F8272FF670E1551A97C0E14FA9FB40 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		65833B66A4F746828D14EAE7C9E292E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		6D8EA3ECED35C30DD99E053113E7D37C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		714048979649624B2124108CF31DCFDB /* Pods_ImageAlertAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAlertAction_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB4ADB22073B55C93FD03E557DD0016 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		714048979649624B2124108CF31DCFDB /* Pods_ImageAlertAction_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageAlertAction_Example.framework; path = "Pods-ImageAlertAction_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		829D373513DE930810802E446156E2A3 /* Pods-ImageAlertAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageAlertAction_Tests.modulemap"; sourceTree = "<group>"; };
 		878428715DF67EC33A8D7224DD2D7BC4 /* Pods-ImageAlertAction_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAlertAction_Example-resources.sh"; sourceTree = "<group>"; };
-		88FA3814B02BDC21FB99940711E156D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8ABDE3834EE801DA7E9D926AD7A3CE43 /* Pods-ImageAlertAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAlertAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		996A807F04F49851176640E476B0A0FA /* Pods_ImageAlertAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageAlertAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E2E38D2180FBE7F4B2920549BB3C0E7 /* ImageAlertAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ImageAlertAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A010AEF5E5F5A74F1688DC637AA84532 /* ImageAlertAction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = ImageAlertAction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		996A807F04F49851176640E476B0A0FA /* Pods_ImageAlertAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageAlertAction_Tests.framework; path = "Pods-ImageAlertAction_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2E38D2180FBE7F4B2920549BB3C0E7 /* ImageAlertAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageAlertAction.framework; path = ImageAlertAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0159CBD5081A801BC0752D212ADA7E9 /* Pods-ImageAlertAction_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ImageAlertAction_Example.modulemap"; sourceTree = "<group>"; };
 		A132C0ED565FD2647E69292D1FA92FEA /* Pods-ImageAlertAction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAlertAction_Tests-dummy.m"; sourceTree = "<group>"; };
 		A5367060B1270E8BEA9F1E727B8B334B /* Pods-ImageAlertAction_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAlertAction_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AF0441ACF59B4FFE97E518A2F96A2FD8 /* ImageAlertAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAlertAction-umbrella.h"; sourceTree = "<group>"; };
+		A8A353C4066F9BA4E798ADEE25AFDCAD /* ImageAlertAction.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = ImageAlertAction.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ADD64980DCB3A1015084E77A6DD8B767 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AFD6C27004AA5BF0365AA8E211E1708A /* Pods-ImageAlertAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageAlertAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B19D0DA79BC96B86458A6F1D80B3832A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4C00AE575233E47A8C1D05F591C8937 /* Pods-ImageAlertAction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAlertAction_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B785C0DD3E8CA64E7002E7434AD1DB8E /* UIAlertAction+Image.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIAlertAction+Image.swift"; path = "ImageAlertAction/Classes/UIAlertAction+Image.swift"; sourceTree = "<group>"; };
-		BAC740B2FCA34E121EE9751340C4E668 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BC69CBCBD2049406A3386F8FFDFA4E67 /* ImageAlertAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageAlertAction.xcconfig; sourceTree = "<group>"; };
 		BFE9BC0882E7CD0A08700692DFC7DE40 /* Pods-ImageAlertAction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageAlertAction_Tests-resources.sh"; sourceTree = "<group>"; };
+		D75A6E1E1933F08275B93EEF2F7CFAF3 /* ImageAlertAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageAlertAction-prefix.pch"; sourceTree = "<group>"; };
 		D9351E7C4178A1B5611B2510AB1BAAB7 /* Pods-ImageAlertAction_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageAlertAction_Example-dummy.m"; sourceTree = "<group>"; };
+		E5A5110A73D8024CE195A44A5FBE3D59 /* ImageAlertAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ImageAlertAction.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BB38BF511A37773219BCE5A33A85BF9 /* Frameworks */ = {
+		1313C7E4754C728BD0233B322BA159E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9A0F4D767E4DAE284D624771061834A /* Foundation.framework in Frameworks */,
+				57539CE82B9733868D2CDCC3083FFC69 /* Foundation.framework in Frameworks */,
+				EF5694458DC181F97176541E3F833442 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5527C29BDB105C2E7877163B9D5AF933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3478D8C4C7745EEB50669D84F93582DC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,21 +98,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD2AAF1F6102B626409DE96E9A6AE67 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F03FF8F48CC776FC696130490C249E54 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5A03D266D71DEBA9EAF6EBF4F2B3B437 /* Foundation.framework in Frameworks */,
+				53482A853556DC17F9576947DBE1633D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		20EDA91AC7569BFFC133AD3EF9461169 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5A5110A73D8024CE195A44A5FBE3D59 /* ImageAlertAction.modulemap */,
+				BC69CBCBD2049406A3386F8FFDFA4E67 /* ImageAlertAction.xcconfig */,
+				52F351A7B74AF9A85ED40FC8029DF1ED /* ImageAlertAction-dummy.m */,
+				D75A6E1E1933F08275B93EEF2F7CFAF3 /* ImageAlertAction-prefix.pch */,
+				4D4FCE9331A764212D27CB2F623E8604 /* ImageAlertAction-umbrella.h */,
+				ADD64980DCB3A1015084E77A6DD8B767 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ImageAlertAction";
+			sourceTree = "<group>";
+		};
 		2259B1EF104732E2FDB5490CBF0F3E0E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,14 +156,12 @@
 			path = "Target Support Files/Pods-ImageAlertAction_Tests";
 			sourceTree = "<group>";
 		};
-		4B84FF86F43AFEEBBD35876964A061AA /* Pod */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A010AEF5E5F5A74F1688DC637AA84532 /* ImageAlertAction.podspec */,
-				7DB4ADB22073B55C93FD03E557DD0016 /* LICENSE */,
-				88FA3814B02BDC21FB99940711E156D9 /* README.md */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
-			name = Pod;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -138,7 +169,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC88F658F81CF8FCEE470D0E5CA823DC /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				2259B1EF104732E2FDB5490CBF0F3E0E /* Products */,
 				CDDEBA1BFE245F510F5A349BD1906093 /* Targets Support Files */,
 			);
@@ -162,32 +193,10 @@
 			path = "Target Support Files/Pods-ImageAlertAction_Example";
 			sourceTree = "<group>";
 		};
-		B045AB95614C2F0E7FB658E15C73C595 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				12260EDD517FD020BBE8CF562BC3A419 /* ImageAlertAction.modulemap */,
-				5765D8E1BFF089A25447DE1BA4C68977 /* ImageAlertAction.xcconfig */,
-				59120545BB7A6F9B8AAF5A7DF4015F86 /* ImageAlertAction-dummy.m */,
-				200540A424893C55FFDA39D203BF6CE2 /* ImageAlertAction-prefix.pch */,
-				AF0441ACF59B4FFE97E518A2F96A2FD8 /* ImageAlertAction-umbrella.h */,
-				BAC740B2FCA34E121EE9751340C4E668 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageAlertAction";
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		BC88F658F81CF8FCEE470D0E5CA823DC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E8B254C400310676CC065B2157B33A33 /* ImageAlertAction */,
+				FD2E2FDC869EF589078F266A93349545 /* ImageAlertAction */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -201,20 +210,22 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+		D649B38A497217C781738972A2392287 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+				A8A353C4066F9BA4E798ADEE25AFDCAD /* ImageAlertAction.podspec */,
+				65833B66A4F746828D14EAE7C9E292E6 /* LICENSE */,
+				64F8272FF670E1551A97C0E14FA9FB40 /* README.md */,
 			);
-			name = iOS;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		E8B254C400310676CC065B2157B33A33 /* ImageAlertAction */ = {
+		FD2E2FDC869EF589078F266A93349545 /* ImageAlertAction */ = {
 			isa = PBXGroup;
 			children = (
-				B785C0DD3E8CA64E7002E7434AD1DB8E /* UIAlertAction+Image.swift */,
-				4B84FF86F43AFEEBBD35876964A061AA /* Pod */,
-				B045AB95614C2F0E7FB658E15C73C595 /* Support Files */,
+				03254290CF2A229C3638F7DD7154C235 /* UIAlertAction+Image.swift */,
+				D649B38A497217C781738972A2392287 /* Pod */,
+				20EDA91AC7569BFFC133AD3EF9461169 /* Support Files */,
 			);
 			name = ImageAlertAction;
 			path = ../..;
@@ -223,14 +234,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		14434BD3C199445D48E11D3D7EA20B3E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B48C2CB3D62616320945FD6D6A82C2D1 /* ImageAlertAction-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		44709DC1D8D224B910EF37220D35E848 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -239,34 +242,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FCACEA1BE872334EC1A3731E1FE60A1 /* Headers */ = {
+		B074EA99D69780B6288A262D18832081 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58671D0C387F914DC31B6F9597A2CE3A /* Pods-ImageAlertAction_Tests-umbrella.h in Headers */,
+				44AD8914BCAADF02C3420D65696BA869 /* Pods-ImageAlertAction_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBA5C7AAED83B2ADB37A704945C56D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B387122886DE35ED44A134155642D3 /* ImageAlertAction-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1750904FFB3B776394EC537FC8FCA088 /* Pods-ImageAlertAction_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F7D805926310CE592FCC6E763402D469 /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Tests" */;
-			buildPhases = (
-				2F5C35E98AADAD85E008EDFAEA5D8506 /* Sources */,
-				1BB38BF511A37773219BCE5A33A85BF9 /* Frameworks */,
-				6FCACEA1BE872334EC1A3731E1FE60A1 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-ImageAlertAction_Tests";
-			productName = "Pods-ImageAlertAction_Tests";
-			productReference = 996A807F04F49851176640E476B0A0FA /* Pods_ImageAlertAction_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		952D4DC67B18723B2D5E95244C9F95B8 /* Pods-ImageAlertAction_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 30F27845718E058BD2A631BE1F6F2E1A /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Example" */;
@@ -285,13 +279,31 @@
 			productReference = 714048979649624B2124108CF31DCFDB /* Pods_ImageAlertAction_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F518E65650E4E32F543BEE73F4283B6C /* ImageAlertAction */ = {
+		CE8655CA0718EB3715EFDF10E03E6859 /* Pods-ImageAlertAction_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA9F7F061221618C2EC3717FAD4C6A50 /* Build configuration list for PBXNativeTarget "ImageAlertAction" */;
+			buildConfigurationList = C1CCD3E1198B5A3890DB34097F46653E /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Tests" */;
 			buildPhases = (
-				4666F0850E53BFEE01204FF073D95504 /* Sources */,
-				F03FF8F48CC776FC696130490C249E54 /* Frameworks */,
-				14434BD3C199445D48E11D3D7EA20B3E /* Headers */,
+				3F7252F65DDCA30C7837C03EEE626940 /* Sources */,
+				5527C29BDB105C2E7877163B9D5AF933 /* Frameworks */,
+				B074EA99D69780B6288A262D18832081 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3E95698AD3A06812424A2167CD55980A /* PBXTargetDependency */,
+			);
+			name = "Pods-ImageAlertAction_Tests";
+			productName = "Pods-ImageAlertAction_Tests";
+			productReference = 996A807F04F49851176640E476B0A0FA /* Pods_ImageAlertAction_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8C6EE226E2E6ADE766434367ACF0132 /* ImageAlertAction */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7EBE155FE0E2345A74DB61B93BB51E4 /* Build configuration list for PBXNativeTarget "ImageAlertAction" */;
+			buildPhases = (
+				D19A8F5BF38D2E5134AEE7CC9671445E /* Sources */,
+				1313C7E4754C728BD0233B322BA159E7 /* Frameworks */,
+				CFBA5C7AAED83B2ADB37A704945C56D3 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -323,9 +335,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F518E65650E4E32F543BEE73F4283B6C /* ImageAlertAction */,
+				D8C6EE226E2E6ADE766434367ACF0132 /* ImageAlertAction */,
 				952D4DC67B18723B2D5E95244C9F95B8 /* Pods-ImageAlertAction_Example */,
-				1750904FFB3B776394EC537FC8FCA088 /* Pods-ImageAlertAction_Tests */,
+				CE8655CA0718EB3715EFDF10E03E6859 /* Pods-ImageAlertAction_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -339,39 +351,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F5C35E98AADAD85E008EDFAEA5D8506 /* Sources */ = {
+		3F7252F65DDCA30C7837C03EEE626940 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10D38A140BDA724AA48D5D4F2F27F4F4 /* Pods-ImageAlertAction_Tests-dummy.m in Sources */,
+				1B51EDB8772C5D79646D7F0B9511AECB /* Pods-ImageAlertAction_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4666F0850E53BFEE01204FF073D95504 /* Sources */ = {
+		D19A8F5BF38D2E5134AEE7CC9671445E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFEBA1E91851FC0890AF2B2CE09164D0 /* ImageAlertAction-dummy.m in Sources */,
-				FB6784FEFB677C31E6C75B5F0682ED50 /* UIAlertAction+Image.swift in Sources */,
+				42517115CF84FE8602B3EB5097C3370B /* ImageAlertAction-dummy.m in Sources */,
+				26EE0214B9670FBED2C9ABA289320ACD /* UIAlertAction+Image.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3E95698AD3A06812424A2167CD55980A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ImageAlertAction_Example";
+			target = 952D4DC67B18723B2D5E95244C9F95B8 /* Pods-ImageAlertAction_Example */;
+			targetProxy = 5996B91833F955497C234ACDFB60D6DD /* PBXContainerItemProxy */;
+		};
 		5D5FEE0C59F434A8D11B22099554F205 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ImageAlertAction;
-			target = F518E65650E4E32F543BEE73F4283B6C /* ImageAlertAction */;
+			target = D8C6EE226E2E6ADE766434367ACF0132 /* ImageAlertAction */;
 			targetProxy = 322C5E571DA34B1454F3AF57605E03C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10A8B57ED953156FB2437A98A5D1EE20 /* Debug */ = {
+		09CE7A77617548BC3EB0C6BBE4913213 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8ABDE3834EE801DA7E9D926AD7A3CE43 /* Pods-ImageAlertAction_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -391,7 +410,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageAlertAction_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -400,10 +419,11 @@
 			};
 			name = Debug;
 		};
-		4DF607BFECAF5551386DBF00AA42E53C /* Debug */ = {
+		1A911E4B4CBE96548FB022914D36714D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 00B6AEF8E38DA09D96D61F72A7D2C02E /* Pods-ImageAlertAction_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -423,7 +443,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageAlertAction_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -434,7 +454,73 @@
 			};
 			name = Debug;
 		};
-		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+		7193693A02D4C555549708414FC6B525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC69CBCBD2049406A3386F8FFDFA4E67 /* ImageAlertAction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageAlertAction/ImageAlertAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageAlertAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageAlertAction/ImageAlertAction.modulemap";
+				PRODUCT_MODULE_NAME = ImageAlertAction;
+				PRODUCT_NAME = ImageAlertAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74E168DEC1E7E808A5359CED6FA99D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD6C27004AA5BF0365AA8E211E1708A /* Pods-ImageAlertAction_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageAlertAction_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageAlertAction_Tests/Pods-ImageAlertAction_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -466,6 +552,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -490,79 +577,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		697C0296D716352EAAB75259759AC515 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AFD6C27004AA5BF0365AA8E211E1708A /* Pods-ImageAlertAction_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageAlertAction_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageAlertAction_Tests/Pods-ImageAlertAction_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageAlertAction_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		81B4A555AEB721899D589040AA383FA0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5765D8E1BFF089A25447DE1BA4C68977 /* ImageAlertAction.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageAlertAction/ImageAlertAction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageAlertAction/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageAlertAction/ImageAlertAction.modulemap";
-				PRODUCT_NAME = ImageAlertAction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -594,6 +615,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -614,16 +636,49 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CC9EDC0D21E51BC36BAB00F90B993FE9 /* Release */ = {
+		D055F69CA2FDCFF585EB347E130A858B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC69CBCBD2049406A3386F8FFDFA4E67 /* ImageAlertAction.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ImageAlertAction/ImageAlertAction-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ImageAlertAction/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ImageAlertAction/ImageAlertAction.modulemap";
+				PRODUCT_MODULE_NAME = ImageAlertAction;
+				PRODUCT_NAME = ImageAlertAction;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D11AE0911051FFEC784D77D70D598E49 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1706828FA991BEF9B904ED03D5AA8E7E /* Pods-ImageAlertAction_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -643,7 +698,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageAlertAction_Example;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -654,45 +709,14 @@
 			};
 			name = Release;
 		};
-		DB20C457E1D268BFD6F26619DA218964 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5765D8E1BFF089A25447DE1BA4C68977 /* ImageAlertAction.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageAlertAction/ImageAlertAction-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageAlertAction/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageAlertAction/ImageAlertAction.modulemap";
-				PRODUCT_NAME = ImageAlertAction;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
-				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -700,26 +724,26 @@
 		30F27845718E058BD2A631BE1F6F2E1A /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DF607BFECAF5551386DBF00AA42E53C /* Debug */,
-				CC9EDC0D21E51BC36BAB00F90B993FE9 /* Release */,
+				1A911E4B4CBE96548FB022914D36714D /* Debug */,
+				D11AE0911051FFEC784D77D70D598E49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7D805926310CE592FCC6E763402D469 /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Tests" */ = {
+		C1CCD3E1198B5A3890DB34097F46653E /* Build configuration list for PBXNativeTarget "Pods-ImageAlertAction_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				10A8B57ED953156FB2437A98A5D1EE20 /* Debug */,
-				697C0296D716352EAAB75259759AC515 /* Release */,
+				09CE7A77617548BC3EB0C6BBE4913213 /* Debug */,
+				74E168DEC1E7E808A5359CED6FA99D03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA9F7F061221618C2EC3717FAD4C6A50 /* Build configuration list for PBXNativeTarget "ImageAlertAction" */ = {
+		C7EBE155FE0E2345A74DB61B93BB51E4 /* Build configuration list for PBXNativeTarget "ImageAlertAction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DB20C457E1D268BFD6F26619DA218964 /* Debug */,
-				81B4A555AEB721899D589040AA383FA0 /* Release */,
+				7193693A02D4C555549708414FC6B525 /* Debug */,
+				D055F69CA2FDCFF585EB347E130A858B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

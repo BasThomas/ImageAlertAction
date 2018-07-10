@@ -1,16 +1,16 @@
 PODS:
-  - ImageAlertAction (0.1.0)
+  - ImageAlertAction (1.0.0)
 
 DEPENDENCIES:
   - ImageAlertAction (from `../`)
 
 EXTERNAL SOURCES:
   ImageAlertAction:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ImageAlertAction: 609db9477aca8c793ad4b672807177dc4275755b
+  ImageAlertAction: 303ff3a5535afd4f946ceabbdbda2fbcc0185255
 
-PODFILE CHECKSUM: 5b22e63345063b8f48094d17eed867fba8c5bece
+PODFILE CHECKSUM: 141ea98584f2ff08d0219eae979497d4cccb2c82
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3

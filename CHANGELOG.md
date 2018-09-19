@@ -1,3 +1,5 @@
+## Next
+
 ## 2.0.0
 
 - Updated to Swift 4.2

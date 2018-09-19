@@ -10,7 +10,7 @@ class ViewController: UIViewController {
     present(alertController(withStyle: .actionSheet), animated: true)
   }
 
-  private func alertController(withStyle style: UIAlertControllerStyle) -> UIAlertController {
+  private func alertController(withStyle style: UIAlertController.Style) -> UIAlertController {
     let alertController = UIAlertController(title: "Title", message: "Message", preferredStyle: style)
 
     let settings = UIAlertAction(title: "Settings", image: #imageLiteral(resourceName: "settings"), style: .default)

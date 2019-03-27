@@ -8,7 +8,7 @@
 import UIKit
 
 @available(tvOS 8.0, *)
-public extension UIAlertAction {
+extension UIAlertAction {
 
     private var imageKey: String { return "image" }
 

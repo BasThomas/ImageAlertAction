@@ -2,7 +2,7 @@
 
 # ImageAlertAction
 
-`ImageAlertAction` is a simple `UIAlertAction` extension that adds support for an image
+`ImageAlertAction` is a `UIAlertAction` extension that adds support for an image
 in the action's button.
 
 <p align="center">

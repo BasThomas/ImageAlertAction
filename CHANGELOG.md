@@ -1,5 +1,9 @@
 ## Next
 
+## 3.1.0
+
+- Updated to Swift 5.1
+
 ## 3.0.0
 
 - Updated to Swift 5.0

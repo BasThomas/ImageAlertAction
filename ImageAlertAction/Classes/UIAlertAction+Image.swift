@@ -10,7 +10,7 @@ import UIKit
 @available(tvOS 8.0, *)
 extension UIAlertAction {
 
-    private var imageKey: String { return "image" }
+    private var imageKey: String { "image" }
 
     /// Create and return an action with the specified title and behavior.
     ///
@@ -44,5 +44,5 @@ extension UIAlertAction {
     }
 
     /// The image of the action's button.
-    public var image: UIImage? { return value(forKey: imageKey) as? UIImage }
+    public var image: UIImage? { value(forKey: imageKey) as? UIImage }
 }

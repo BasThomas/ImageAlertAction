@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageAlertAction'
-  s.version          = '3.0.0'
+  s.version          = '3.1.0'
   s.summary          = 'Image support for UIAlertAction'
   s.description      = <<-DESC
 ImageAlertAction adds image support to UIAlertAction.
@@ -15,7 +15,7 @@ Use this to visually convey an action's purpose.
   s.social_media_url = 'https://twitter.com/basthomas'
 
   s.ios.deployment_target = '8.0'
-  s.swift_version         = '5.0'
+  s.swift_version         = '5.1'
 
   s.source_files = 'ImageAlertAction/Classes/**/*'
 

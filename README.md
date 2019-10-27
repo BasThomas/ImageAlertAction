@@ -1,3 +1,5 @@
+[![Travis status](https://img.shields.io/travis/BasThomas/ImageAlertAction.svg)](https://travis-ci.org/BasThomas/ImageAlertAction)
+
 # ImageAlertAction
 
 `ImageAlertAction` is a simple `UIAlertAction` extension that adds support for an image

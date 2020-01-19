@@ -8,12 +8,12 @@ class Tests: XCTestCase {
   }
     
     func testCheckmarkIsCorrectlySet() {
-      let action = UIAlertAction(title: "Hello world!", image: #imageLiteral(resourceName: "settings"), isSelected: true, style: .cancel)
-      XCTAssertTrue(action.isSelected)
+      let action = UIAlertAction(title: "Hello world!", image: #imageLiteral(resourceName: "settings"), isChecked: true, style: .cancel)
+      XCTAssertTrue(action.isChecked)
     }
     
     func testCheckmarkIsNotSet() {
       let action = UIAlertAction(title: "Hello world!", image: #imageLiteral(resourceName: "settings"), style: .cancel)
-      XCTAssertFalse(action.isSelected)
+      XCTAssertFalse(action.isChecked)
     }
 }

@@ -1,7 +1,7 @@
 ## Next
 
 ## 3.2.0
-- Added support to display a checkmark with `isSelected`
+- Added support to display a checkmark with `isChecked`
 
 ## 3.1.0
 

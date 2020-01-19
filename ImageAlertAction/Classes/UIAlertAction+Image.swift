@@ -25,7 +25,8 @@ extension UIAlertAction {
     /// may be used with [UIAlertAction.Style.cancel](https://developer.apple.com/documentation/uikit/uialertaction/style/cancel).
     /// - parameter image: An image to display on the left side of the button.
     /// Use this to visually convey the action's purpose.
-    /// - parameter isChecked: A boolean that will be used to determine if a check mark should be displayed on the right side of the title
+    /// - parameter isChecked: A boolean that will be used to determine if a
+    /// check mark should be displayed on the right side of the title.
     /// - parameter style: Additional styling information to apply to the button.
     /// Use the style information to convey the type of action that is performed by the button.
     /// For a list of possible values, see the constants in
@@ -50,5 +51,6 @@ extension UIAlertAction {
     /// The image of the action's button.
     public var image: UIImage? { value(forKey: imageKey) as? UIImage }
     
+    /// A Bool indicating if the action is checked or not.
     public var isChecked: Bool { value(forKey: isCheckedKey) as? Bool ?? false }
 }

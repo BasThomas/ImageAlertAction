@@ -68,7 +68,7 @@ settings.image // returns an optional UIImage
 
 #### Adding a checkmark
 
-You can also show a check mark on actions via `isChecked`
+You can also show a check mark on actions via `isChecked`.
 
 ```swift
 let settings = UIAlertAction(

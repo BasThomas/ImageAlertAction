@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ImageAlertAction'
-  s.version          = '3.1.0'
+  s.version          = '3.2.0'
   s.summary          = 'Image support for UIAlertAction'
   s.description      = <<-DESC
 ImageAlertAction adds image support to UIAlertAction.

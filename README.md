@@ -66,6 +66,20 @@ let settings = UIAlertAction(
 settings.image // returns an optional UIImage
 ```
 
+#### Adding a checkmark
+
+You can also show a check mark on actions via `isChecked`
+
+```swift
+let settings = UIAlertAction(
+  title: "Settings",
+  image: #imageLiteral(resourceName: "settings"),
+  isChecked: true
+  style: .default
+)
+settings.isChecked // returns a Bool
+```
+
 ### Presenting the `UIAlertController`
 
 To present a `UIAlertController` containing the `UIAlertAction`, nothing changes.

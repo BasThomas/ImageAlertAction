@@ -15,6 +15,9 @@ class ViewController: UIViewController {
 
     let settings = UIAlertAction(title: "Settings", image: #imageLiteral(resourceName: "settings"), style: .default)
     alertController.addAction(settings)
+    
+    let selectedSettings = UIAlertAction(title: "Selected Settings", image: #imageLiteral(resourceName: "settings"), isSelected: true, style: .default)
+    alertController.addAction(selectedSettings)
 
     let cancel = UIAlertAction(title: "Cancel", style: .cancel)
     alertController.addAction(cancel)

@@ -11,6 +11,7 @@ import UIKit
 extension UIAlertAction {
 
     private var imageKey: String { "image" }
+    private var isSelectedKey: String { "checked" }
 
     /// Create and return an action with the specified title and behavior.
     ///
@@ -24,6 +25,7 @@ extension UIAlertAction {
     /// may be used with [UIAlertAction.Style.cancel](https://developer.apple.com/documentation/uikit/uialertaction/style/cancel).
     /// - parameter image: An image to display on the left side of the button.
     /// Use this to visually convey the action's purpose.
+    /// - parameter isSelected: A boolean that will be used to determine if a checkmark should be displayed on the right side of the title
     /// - parameter style: Additional styling information to apply to the button.
     /// Use the style information to convey the type of action that is performed by the button.
     /// For a list of possible values, see the constants in
@@ -36,13 +38,17 @@ extension UIAlertAction {
     public convenience init(
         title: String? = nil,
         image: UIImage,
+        isSelected: Bool = false,
         style: UIAlertAction.Style,
         handler: ((UIAlertAction) -> Void)? = nil
     ) {
         self.init(title: title, style: style, handler: handler)
         setValue(image, forKey: imageKey)
+        setValue(isSelected, forKey: isSelectedKey)
     }
 
     /// The image of the action's button.
     public var image: UIImage? { value(forKey: imageKey) as? UIImage }
+    
+    public var isSelected: Bool { value(forKey: isSelectedKey) as? Bool ?? false }
 }

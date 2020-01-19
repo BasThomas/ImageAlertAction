@@ -1,4 +1,5 @@
-## Next
+## 3.2.0
+- Added support to display a checkmark with `isSelected`
 
 ## 3.1.0
 

@@ -1,6 +1,8 @@
+[![Travis status](https://img.shields.io/travis/BasThomas/ImageAlertAction.svg)](https://travis-ci.org/BasThomas/ImageAlertAction)
+
 # ImageAlertAction
 
-`ImageAlertAction` is a simple `UIAlertAction` extension that adds support for an image
+`ImageAlertAction` is a `UIAlertAction` extension that adds support for an image
 in the action's button.
 
 <p align="center">
@@ -62,6 +64,20 @@ let settings = UIAlertAction(
   style: .default
 )
 settings.image // returns an optional UIImage
+```
+
+#### Adding a checkmark
+
+You can also show a check mark on actions via `isChecked`.
+
+```swift
+let settings = UIAlertAction(
+  title: "Settings",
+  image: #imageLiteral(resourceName: "settings"),
+  isChecked: true
+  style: .default
+)
+settings.isChecked // returns a Bool
 ```
 
 ### Presenting the `UIAlertController`

@@ -1,4 +1,8 @@
 language: swift
-osx_image: xcode10.2
+osx_image: xcode11.1
+
 script:
-  - xcodebuild clean test -workspace Example/ImageAlertAction.xcworkspace -scheme ImageAlertAction-Example -destination "platform=iOS Simulator,name=iPhone X,OS=12.2" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO ONLY_ACTIVE_ARCH=NO -quiet
+  - cd Example/
+  - pod install
+  - cd ..
+  - xcodebuild clean test -scheme ImageAlertAction-Example -workspace Example/ImageAlertAction.xcworkspace -destination "platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.1"

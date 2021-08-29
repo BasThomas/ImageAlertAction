@@ -1,5 +1,12 @@
 ## Next
 
+## 3.2.0
+- Added support to display a checkmark with `isChecked`.
+
+## 3.1.0
+
+- Updated to Swift 5.1
+
 ## 3.0.0
 
 - Updated to Swift 5.0
